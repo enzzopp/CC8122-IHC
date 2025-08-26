@@ -64,7 +64,9 @@ Realizou-se uma análise de sistemas e ferramentas existentes voltados à visual
 #### **1. CheXNet (Stanford)**
 
 **Descrição**: Sistema de deep learning desenvolvido pela Universidade de Stanford em 2017 para detecção de pneumonia em radiografias de tórax.
+
 **Criadores**: Equipe de pesquisa liderada por Pranav Rajpurkar, Jeremy Irvin e outros pesquisadores da Stanford University.
+
 **Funcionamento**: Utiliza uma rede neural convolucional (CNN) treinada com mais de 100.000 radiografias do NIH Chest X-ray Dataset. O sistema analisa imagens e retorna probabilidades de diferentes condições pulmonares, incluindo pneumonia.
 
 - **Pontos Fortes**: Alta precisão diagnóstica, validação em grandes datasets
@@ -74,7 +76,9 @@ Realizou-se uma análise de sistemas e ferramentas existentes voltados à visual
 #### **2. Google Health AI**
 
 **Descrição**: Plataforma de inteligência artificial médica desenvolvida pelo Google, parte do Google Cloud Healthcare API.
+
 **Criadores**: Google Health, divisão de saúde do Google focada em tecnologias médicas.
+
 **Funcionamento**: Oferece APIs e ferramentas para análise de imagens médicas, incluindo detecção de anomalias em radiografias. Integra-se com sistemas hospitalares existentes e oferece dashboards para visualização de resultados.
 
 - **Pontos Fortes**: Integração com sistemas hospitalares, interface moderna
@@ -84,7 +88,9 @@ Realizou-se uma análise de sistemas e ferramentas existentes voltados à visual
 #### **3. PACS (Picture Archiving and Communication System)**
 
 **Descrição**: Sistema padrão da indústria médica para armazenamento, transmissão e visualização de imagens médicas digitais.
+
 **Criadores**: Desenvolvido por múltiplas empresas (GE, Siemens, Philips, etc.) seguindo padrões DICOM estabelecidos pela indústria.
+
 **Funcionamento**: Sistema de arquivamento e comunicação de imagens que permite aos médicos visualizar, armazenar e compartilhar exames radiológicos. Funciona como um banco de dados centralizado para imagens médicas com ferramentas de visualização integradas.
 
 - **Pontos Fortes**: Padrão da indústria, integração completa com workflow clínico
@@ -94,7 +100,9 @@ Realizou-se uma análise de sistemas e ferramentas existentes voltados à visual
 #### **4. Sistemas de Radiologia Comerciais (GE, Siemens, Philips)**
 
 **Descrição**: Soluções proprietárias desenvolvidas por grandes empresas de equipamentos médicos para análise de imagens radiológicas.
+
 **Criadores**: General Electric (GE), Siemens Healthineers, Philips Healthcare - empresas líderes em equipamentos médicos.
+
 **Funcionamento**: Sistemas integrados que combinam hardware de aquisição de imagens (tomógrafos, ressonâncias) com software de análise. Utilizam algoritmos proprietários de IA para detecção de anomalias e oferecem ferramentas de pós-processamento de imagens.
 
 - **Pontos Fortes**: Hardware otimizado, integração nativa com equipamentos
