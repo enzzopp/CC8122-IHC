@@ -110,18 +110,18 @@ Realizou-se uma análise de sistemas e ferramentas existentes voltados à visual
 - Também demonstra marcas e estatisticas de uso sobre os serviços prestados, disponibilizando dados e muitas informações para clientes.
 - Highlight: O site permite com que você teste a ferramenta para ver como ela realiza o diagnóstico.
 
-**Preços e modelos de negócio:**
+### **Preços e modelos de negócio:**
 
 Ambas as plataformas, Lunit e Qure.ai, funcionam com contratos diretos e especificos com empresas, eles oferecem o próprio software deles ou integração com softwares pré-existentes. Não conseguimos encontrar em algum lugar um valor fixo ou especifico.
 
-**Satisfação do cliente e opiniões:**
+### **Satisfação do cliente e opiniões:**
 
 Em ambos os sites, é possível observar uma região dedicada apenas ao feedback de médicos e clientes das plataformas. Também é possível acessar estudos relacionados a IA na Medicina que se utilizaram das plataformas para serem realizados.
 
 ![1756400825845](image/README/1756400825845.png)
 ![1756400839308](image/README/1756400839308.png)
 
-**Padrões e tendências:**
+### **Padrões e tendências:**
 
 Com base na análise das interfaces e funcionalidades das plataformas Qure.ai e Lunit, foram identificados os seguintes padrões e tendências:
 
