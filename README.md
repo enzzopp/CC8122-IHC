@@ -22,6 +22,8 @@ O sistema busca responder a questões como:
 
 ---
 
+[Git Hub Wiki][https://github.com/enzzopp/CC8122-IHC/wiki]
+
 ## 🎯 Introdução
 
 O propósito do projeto é **projetar uma interface acessível** para sistemas de apoio ao diagnóstico por imagem.
