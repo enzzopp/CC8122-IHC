@@ -22,7 +22,7 @@ O sistema busca responder a questões como:
 
 ---
 
-[Git Hub Wiki][https://github.com/enzzopp/CC8122-IHC/wiki]
+[Git Hub Wiki](https://github.com/enzzopp/CC8122-IHC/wiki)
 
 ## 🎯 Introdução
 
