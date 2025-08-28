@@ -2,10 +2,14 @@
 
 Projeto apresentado ao Centro Universitário FEI, como parte dos requisitos necessários para aprovação na disciplina de **Interface Humano-Computador (CC8122)** do curso de Ciência da Computação, orientado pelo Prof. Dr. Plinio Thomaz Aquino Junior.
 
-Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) intitulado**“Desenvolvimento de Sistema de Apoio ao Diagnóstico de Pneumonia em Radiografias de Tórax utilizando Inteligência Artificial Explicável”**,sob orientação do Prof. Dr. Flavio Tonidandel e desenvolvido por:
+Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) intitulado **Desenvolvimento de Sistema de Apoio ao Diagnóstico de Pneumonia em Radiografias de Tórax utilizando Inteligência Artificial Explicável**,sob orientação do Prof. Dr. Flavio Tonidandel e desenvolvido por:
 
 - **Enzo Pacheco Porfirio** – 22.225.011-0
 - **Gabriel Destro** – 24.122.059-9
+
+---
+
+### 👉 [Git Hub Wiki](https://github.com/enzzopp/CC8122-IHC/wiki)
 
 ---
 
@@ -21,5 +25,3 @@ O sistema busca responder a questões como:
 - Como tornar a ferramenta **intuitiva e não invasiva**, respeitando a rotina clínica?
 
 ---
-
-👉[Git Hub Wiki](https://github.com/enzzopp/CC8122-IHC/wiki)
