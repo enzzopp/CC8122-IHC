@@ -59,69 +59,230 @@ O público principal são **médicos e profissionais da saúde** que lidam com d
 
 Realizou-se uma análise de sistemas e ferramentas existentes voltados à visualização de imagens médicas e diagnóstico de pneumonia por radiografia de tórax.
 
-### **Sistemas Analisados:**
+### **Principais Concorrências:**
 
-#### **1. CheXNet (Stanford)**
+**Qure.ai** – Empresa indiana fundada em 2016, especializada no desenvolvimento de soluções baseadas em inteligência artificial para análise de imagens médicas, como radiografias de tórax e tomografias. Seus produtos auxiliam profissionais de saúde no diagnóstico rápido e preciso de doenças como pneumonia, tuberculose e hemorragias cerebrais, sendo utilizados em hospitais e clínicas em diversos países.
 
-**Descrição**: Sistema de deep learning desenvolvido pela Universidade de Stanford em 2017 para detecção de pneumonia em radiografias de tórax.
+**Lunit** – Empresa sul-coreana fundada em 2013, especializada em inteligência artificial para diagnóstico médico por imagem. A Lunit desenvolve soluções de IA para análise de radiografias de tórax, mamografias e outros exames de imagem, oferecendo ferramentas que auxiliam radiologistas na detecção precoce de doenças como câncer de mama e doenças pulmonares. Suas tecnologias são utilizadas em hospitais e clínicas ao redor do mundo, com foco em melhorar a precisão diagnóstica e a eficiência do trabalho médico.
 
-**Criadores**: Equipe de pesquisa liderada por Pranav Rajpurkar, Jeremy Irvin e outros pesquisadores da Stanford University.
+### **Características e funcionalidades dos concorrentes:**
 
-**Funcionamento**: Utiliza uma rede neural convolucional (CNN) treinada com mais de 100.000 radiografias do NIH Chest X-ray Dataset. O sistema analisa imagens e retorna probabilidades de diferentes condições pulmonares, incluindo pneumonia.
+**Qure.ai:**
 
-- **Pontos Fortes**: Alta precisão diagnóstica, validação em grandes datasets
-- **Pontos Fracos**: Interface limitada, resultados apresentados apenas como probabilidades numéricas
-- **Diferencial**: Foco exclusivo em precisão, sem preocupação com usabilidade clínica
+- Análise de radiografias de tórax e tomografias
+- Diagnóstico de pneumonia, tuberculose e hemorragias cerebrais
+- Resultados rápidos e precisos
+- Interface para profissionais de saúde
+- Utilização em hospitais e clínicas globais
 
-#### **2. Google Health AI**
+**Lunit:**
 
-**Descrição**: Plataforma de inteligência artificial médica desenvolvida pelo Google, parte do Google Cloud Healthcare API.
+- Análise de radiografias de tórax e mamografias
+- Detecção precoce de câncer de mama e doenças pulmonares
+- Ferramentas para radiologistas
+- Foco em precisão diagnóstica e eficiência médica
+- Tecnologias utilizadas em hospitais e clínicas internacionais
 
-**Criadores**: Google Health, divisão de saúde do Google focada em tecnologias médicas.
+### **Experiência do usuário (UX):**
 
-**Funcionamento**: Oferece APIs e ferramentas para análise de imagens médicas, incluindo detecção de anomalias em radiografias. Integra-se com sistemas hospitalares existentes e oferece dashboards para visualização de resultados.
+**Qure.ai:**
 
-- **Pontos Fortes**: Integração com sistemas hospitalares, interface moderna
-- **Pontos Fracos**: Complexidade excessiva, curva de aprendizado íngreme
-- **Diferencial**: Solução completa para hospitais, mas pode ser excessiva para clínicas menores
+![1756400313201](image/README/1756400313201.png)
+![1756400320887](image/README/1756400320887.png)
+![1756400330835](image/README/1756400330835.png)
 
-#### **3. PACS (Picture Archiving and Communication System)**
+- Interface limpa e organizada, com foco na visualização da imagem.
+- Elementos de navegação simples e acessíveis.
+- Destaque para resultados e laudos de forma clara e objetiva.
+- Uso de cores sóbrias, transmitindo profissionalismo.
+- Demonstração de marcas e empresas que se utilizam do seu serviço, mostrando também os dados e desempenho da aplicação.
+- Informações relevantes apresentadas sem poluir a tela.
 
-**Descrição**: Sistema padrão da indústria médica para armazenamento, transmissão e visualização de imagens médicas digitais.
+**Lunit:**
 
-**Criadores**: Desenvolvido por múltiplas empresas (GE, Siemens, Philips, etc.) seguindo padrões DICOM estabelecidos pela indústria.
+![1756400463690](image/README/1756400463690.png)
+![1756400474583](image/README/1756400474583.png)
+![1756400486762](image/README/1756400486762.png)
 
-**Funcionamento**: Sistema de arquivamento e comunicação de imagens que permite aos médicos visualizar, armazenar e compartilhar exames radiológicos. Funciona como um banco de dados centralizado para imagens médicas com ferramentas de visualização integradas.
+- Interface interativa, limpa e organizada, porém com o foco mais para noticias e avanços de IA no mercado.
+- Navegação também é simples e acessível, conta com uma barra de navegação.
+- Uso de cores sombrias, também para transmitir profissionalismo e seriedade.
+- Também demonstra marcas e estatisticas de uso sobre os serviços prestados, disponibilizando dados e muitas informações para clientes.
+- Highlight: O site permite com que você teste a ferramenta para ver como ela realiza o diagnóstico.
 
-- **Pontos Fortes**: Padrão da indústria, integração completa com workflow clínico
-- **Pontos Fracos**: Interfaces antiquadas, falta de recursos de IA explicável
-- **Diferencial**: Infraestrutura robusta, mas sem foco em interpretabilidade
+**Preços e modelos de negócio:**
 
-#### **4. Sistemas de Radiologia Comerciais (GE, Siemens, Philips)**
+Ambas as plataformas, Lunit e Qure.ai, funcionam com contratos diretos e especificos com empresas, eles oferecem o próprio software deles ou integração com softwares pré-existentes. Não conseguimos encontrar em algum lugar um valor fixo ou especifico.
 
-**Descrição**: Soluções proprietárias desenvolvidas por grandes empresas de equipamentos médicos para análise de imagens radiológicas.
+**Satisfação do cliente e opiniões:**
 
-**Criadores**: General Electric (GE), Siemens Healthineers, Philips Healthcare - empresas líderes em equipamentos médicos.
+Em ambos os sites, é possível observar uma região dedicada apenas ao feedback de médicos e clientes das plataformas. Também é possível acessar estudos relacionados a IA na Medicina que se utilizaram das plataformas para serem realizados.
 
-**Funcionamento**: Sistemas integrados que combinam hardware de aquisição de imagens (tomógrafos, ressonâncias) com software de análise. Utilizam algoritmos proprietários de IA para detecção de anomalias e oferecem ferramentas de pós-processamento de imagens.
+![1756400825845](image/README/1756400825845.png)
+![1756400839308](image/README/1756400839308.png)
 
-- **Pontos Fortes**: Hardware otimizado, integração nativa com equipamentos
-- **Pontos Fracos**: Alto custo, dependência de equipamentos específicos
-- **Diferencial**: Soluções proprietárias, limitadas a equipamentos da marca
+**Padrões e tendências:**
 
-### **Lacunas Identificadas:**
+Com base na análise das interfaces e funcionalidades das plataformas Qure.ai e Lunit, foram identificados os seguintes padrões e tendências:
 
-1. **Falta de Explicabilidade**: A maioria dos sistemas oferece apenas resultados numéricos sem explicação visual
-2. **Interfaces Complexas**: Sistemas existentes priorizam funcionalidade sobre usabilidade
-3. **Integração Limitada**: Dificuldade de integração com diferentes workflows clínicos
-4. **Custo Elevado**: Soluções comerciais são inacessíveis para clínicas menores
+**Padrões de Design:**
 
-### **Oportunidades para Nosso Sistema:**
+- **Interface minimalista**: Ambas as plataformas utilizam designs limpos e organizados, evitando poluição visual
+- **Paleta de cores sóbria**: Uso predominante de tons escuros (cinza, preto, azul) para transmitir profissionalismo e seriedade
+- **Navegação intuitiva**: Elementos de navegação simples e acessíveis, facilitando o uso por profissionais médicos
+- **Foco na visualização**: Destaque para as imagens médicas e resultados, com informações secundárias bem organizadas
 
-- **Interface Intuitiva**: Foco na simplicidade e rapidez de uso
-- **Explicabilidade Visual**: Apresentação clara das áreas de interesse na radiografia
-- **Acessibilidade**: Solução web que funciona em qualquer dispositivo
-- **Flexibilidade**: Adaptável a diferentes contextos clínicos
+**Padrões de Funcionalidade:**
+
+- **Resultados rápidos**: Ambas priorizam a velocidade de análise e apresentação dos resultados
+- **Transparência de dados**: Demonstração de estatísticas de uso, performance e casos de sucesso
+- **Credibilidade institucional**: Exibição de parcerias com hospitais e clínicas reconhecidas
+- **Feedback de usuários**: Seções dedicadas aos depoimentos de médicos e profissionais de saúde
+
+**Tendências de Mercado:**
+
+- **Modelo B2B**: Foco em contratos diretos com instituições de saúde, não em vendas individuais
+- **Integração com sistemas existentes**: Oferecem tanto software próprio quanto integração com plataformas já utilizadas
+- **Validação científica**: Presença de estudos e pesquisas que validam a eficácia das ferramentas
+- **Globalização**: Atuação em mercados internacionais, não apenas localmente
+
+**Tendências Tecnológicas:**
+
+- **IA Explicável**: Movimento em direção à transparência das decisões da inteligência artificial
+- **Automação sem substituição**: Foco em apoiar, não substituir, a decisão médica
+- **Acessibilidade multiplataforma**: Funcionalidade em diferentes dispositivos (desktop, tablet, mobile)
+- **Demonstração interativa**: Possibilidade de testar as ferramentas antes da implementação
+
+**Tendências de UX/UI:**
+
+- **Design responsivo**: Adaptação para diferentes tamanhos de tela
+- **Hierarquia visual clara**: Informações organizadas por importância e relevância
+- **Feedback visual**: Indicadores claros de status e progresso das análises
+- **Acessibilidade**: Consideração para diferentes níveis de expertise tecnológica dos usuários
+
+**Relatórios e resumo dos resultados:**
+
+### **Resumo dos Resultados - Qure.ai**
+
+**Pontos Fortes:**
+
+- Interface limpa e organizada com foco na visualização de imagens médicas
+- Navegação simples e acessível para profissionais de saúde
+- Apresentação clara e objetiva de resultados e laudos
+- Paleta de cores sóbria (tons escuros) que transmite profissionalismo
+- Demonstração de credibilidade através de parcerias com hospitais reconhecidos
+- Apresentação de dados de desempenho e estatísticas de uso
+- Informações relevantes bem organizadas sem poluição visual
+
+**Funcionalidades Principais:**
+
+- Análise de radiografias de tórax e tomografias
+- Diagnóstico de pneumonia, tuberculose e hemorragias cerebrais
+- Resultados rápidos e precisos
+- Interface específica para profissionais de saúde
+- Utilização global em hospitais e clínicas
+
+**Modelo de Negócio:**
+
+- Contratos diretos e específicos com empresas
+- Oferece software próprio ou integração com sistemas existentes
+- Foco em modelo B2B (Business-to-Business)
+
+### **Resumo dos Resultados - Lunit**
+
+**Pontos Fortes:**
+
+- Interface interativa e moderna com foco em notícias e avanços de IA
+- Navegação simples com barra de navegação bem estruturada
+- Uso de cores sombrias para transmitir seriedade e profissionalismo
+- Demonstração de credibilidade através de estatísticas e casos de uso
+- **Diferencial**: Possibilidade de testar a ferramenta antes da implementação
+- Seção dedicada a estudos e pesquisas científicas
+- Apresentação de feedback de médicos e profissionais de saúde
+
+**Funcionalidades Principais:**
+
+- Análise de radiografias de tórax e mamografias
+- Detecção precoce de câncer de mama e doenças pulmonares
+- Ferramentas especializadas para radiologistas
+- Foco em precisão diagnóstica e eficiência médica
+- Tecnologias utilizadas internacionalmente
+
+**Modelo de Negócio:**
+
+- Contratos diretos com instituições de saúde
+- Oferece software próprio ou integração com plataformas existentes
+- Modelo B2B sem valores fixos publicamente disponíveis
+
+### **Principais Diferenças Identificadas:**
+
+**Qure.ai:**
+
+- Foco mais direto na visualização e análise de imagens
+- Interface mais tradicional e clínica
+- Especialização em radiografias de tórax e tomografias
+- Apresentação mais conservadora dos resultados
+
+**Lunit:**
+
+- Interface mais moderna e interativa
+- Destaque para demonstração da tecnologia (teste da ferramenta)
+- Maior variedade de exames (incluindo mamografias)
+- Foco em inovação e avanços tecnológicos
+- Maior ênfase em estudos científicos e validação
+
+**Aspectos Comuns:**
+
+- Ambas priorizam credibilidade e profissionalismo
+- Foco em modelo B2B com contratos institucionais
+- Interface responsiva e acessível
+- Demonstração de parcerias e casos de sucesso
+- Seções dedicadas ao feedback de usuários
+
+### **Pontos Positivos Identificados:**
+
+**Design e Interface:**
+
+- Interfaces limpas e minimalistas que evitam poluição visual
+- Paleta de cores sóbria (tons escuros) que transmite profissionalismo
+- Navegação intuitiva e acessível para profissionais médicos
+- Foco na visualização das imagens médicas
+
+**Funcionalidades:**
+
+- Resultados rápidos e precisos
+- Demonstração de credibilidade através de parcerias e estatísticas
+- Seções dedicadas ao feedback de usuários
+- Validação científica com estudos e pesquisas
+
+**Modelo de Negócio:**
+
+- Foco em contratos B2B com instituições de saúde
+- Flexibilidade para integração com sistemas existentes
+- Atuação em mercados internacionais
+
+### **Recomendações para o Projeto:**
+
+**Interface e UX:**
+
+- Adotar design minimalista com foco na visualização de imagens
+- Utilizar paleta de cores sóbria (tons escuros) para transmitir profissionalismo
+- Implementar navegação simples e intuitiva
+- Priorizar a rapidez na apresentação de resultados
+
+**Funcionalidades:**
+
+- Incluir seção de demonstração/teste da ferramenta
+- Criar área dedicada ao feedback de usuários
+- Apresentar estatísticas de performance e casos de sucesso
+- Incorporar validação científica com estudos relacionados
+
+**Diferenciação:**
+
+- Desenvolver interface mais moderna e interativa que a Qure.ai
+- Focar na IA explicável como diferencial principal
+- Oferecer maior transparência nas decisões da IA
+- Implementar recursos de demonstração interativa
 
 ---
 
