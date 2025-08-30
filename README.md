@@ -9,7 +9,7 @@ Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) intitulado **Des
 
 ---
 
-### 👉 [Git Hub Wiki](https://github.com/enzzopp/CC8122-IHC/wiki) (Clique para visualizar!)
+### 👉 [Git Hub Wiki](https://github.com/enzzopp/CC8122-IHC/wiki)
 
 ---
 
